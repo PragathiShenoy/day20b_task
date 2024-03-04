@@ -1,0 +1,64 @@
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://img.freepik.com/free-photo/beautiful-mountains_181624-389.jpg?w=360&t=st=1709550626~exp=1709551226~hmac=97aeffa7fdc5bc9e74deb6e1a87acef2e72b47ef184e28c1d76556290bbe76b1");
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  margin-top: 25px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); 
+  border-radius: 10px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.input-group {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#cityInput {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#searchButton {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+#weatherInfo {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+#weatherInfo h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#weatherInfo p {
+  margin-bottom: 5px;
+}
+
+#weatherInfo.error {
+  background-color: #f0f0f0;
+  border-color: #d9534f;
+}
